@@ -53,6 +53,9 @@ subprojects {
 		// mariadb jdbc driver
 		runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
 
+		// redis
+		implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+
 		// commons-lang (https://commons.apache.org/proper/commons-lang/)
 		implementation 'org.apache.commons:commons-lang3:3.13.0'
 
