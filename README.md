@@ -2,7 +2,7 @@
 
 ## 1. Stack
 
-+ [OpenJDK 11](https://openjdk.org/projects/jdk/17/)
++ [OpenJDK 17](https://openjdk.org/projects/jdk/17/)
 + [Spring Boot](https://spring.io/projects/spring-boot "Spring Boot")
 + [Spring Security](https://spring.io/projects/spring-security "Spring Security")
 + [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
