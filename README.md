@@ -40,6 +40,7 @@ Build Tool은 [Gradle](https://gradle.org)을 이용 하며, Multi Project로 �
 * [dive-trip-library](https://github.com/kbtapjm/dive-trip-library)
 * [dive-trip-application](https://github.com/kbtapjm/dive-trip-application)
 * [dive-trip-stream](https://github.com/kbtapjm/dive-trip-stream)
+* [dive-trip-batch](https://github.com/kbtapjm/dive-trip-batch)
 
 #### dive-trip
 dive-trip 프로젝트의 `root project` (base gradle 설정을 포함)
@@ -54,4 +55,7 @@ dive-trip 프로젝트의 `rest api project`로 연동에 필요한 API를 구�
 * API : `Spring Web`기반에 `@RestController`를 이용
 
 #### dive-trip-stream
-dive-trip 프로젝트의 `Message` 처리를 위한 `Reactive` 방식의 데이터 처리 Project 
+dive-trip 프로젝트의 `Message` 처리를 위한 `Reactive` 방식의 데이터 처리 Project
+
+#### dive-trip-batch
+dive-trip 프로젝트의 `Batch` 처리를 위한 Project

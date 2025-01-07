@@ -2,5 +2,6 @@ rootProject.name = 'dive-trip'
 include 'dive-trip-library'
 include 'dive-trip-application'
 include 'dive-trip-stream'
+include 'dive-trip-batch'
 
 
