@@ -8,6 +8,12 @@ repositories {
 	mavenCentral()
 }
 
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
 allprojects {
 	group = 'io.divetrip'
 	version = '0.0.1-SNAPSHOT'
@@ -15,12 +21,6 @@ allprojects {
 
 	repositories {
 		mavenCentral()
-	}
-}
-
-configurations {
-	compileOnly {
-		extendsFrom annotationProcessor
 	}
 }
 
@@ -92,8 +92,9 @@ subprojects {
 	}
 }
 
-//bootJar {
-//	mainClass = 'io.divetrip.DiveTripApplication'
-//}
-
-
+jar {
+	enabled = false
+}
+bootJar {
+	enabled = false
+}
